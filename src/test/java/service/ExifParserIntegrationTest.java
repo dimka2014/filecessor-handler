@@ -20,8 +20,8 @@ public class ExifParserIntegrationTest {
         assertEquals(exif.getExposureTime(), "1/125");
         assertEquals(exif.getAperture(), "4.0");
         assertEquals(exif.getFocalLength(), "24.0 mm");
-        assertEquals(exif.getPixelXDimension(), 240.0);
-        assertEquals(exif.getPixelYDimension(), 240.0);
+        assertEquals(exif.getXResolution(), 240.0);
+        assertEquals(exif.getYResolution(), 240.0);
         assertEquals(exif.getWidth(), 2512);
         assertEquals(exif.getHeight(), 3364);
         assertEquals(exif.getIso(), "800");
@@ -38,8 +38,8 @@ public class ExifParserIntegrationTest {
         assertEquals(exif.getAperture(), "8.0");
         assertEquals(exif.getFocalLength(), "20.0 mm");
         assertEquals(exif.getColorSpace(), "sRGB");
-        assertEquals(exif.getPixelXDimension(), 72.0);
-        assertEquals(exif.getPixelYDimension(), 72.0);
+        assertEquals(exif.getXResolution(), 72.0);
+        assertEquals(exif.getYResolution(), 72.0);
         assertEquals(exif.getWidth(), 5184);
         assertEquals(exif.getHeight(), 3456);
         assertEquals(exif.getIso(), "100");
@@ -55,8 +55,8 @@ public class ExifParserIntegrationTest {
         assertEquals(exif.getExposureTime(), "1/320");
         assertEquals(exif.getFocalLength(), "10.4 mm");
         assertEquals(exif.getColorSpace(), "sRGB");
-        assertEquals(exif.getPixelXDimension(), 600.0);
-        assertEquals(exif.getPixelYDimension(), 600.0);
+        assertEquals(exif.getXResolution(), 600.0);
+        assertEquals(exif.getYResolution(), 600.0);
         assertEquals(exif.getWidth(), 800);
         assertEquals(exif.getHeight(), 667);
         assertEquals(exif.getIso(), "0");
@@ -72,8 +72,8 @@ public class ExifParserIntegrationTest {
         assertEquals(exif.getAperture(), "1.9");
         assertEquals(exif.getFocalLength(), "4.3 mm");
         assertEquals(exif.getColorSpace(), "sRGB");
-        assertEquals(exif.getPixelXDimension(), 72.0);
-        assertEquals(exif.getPixelYDimension(), 72.0);
+        assertEquals(exif.getXResolution(), 72.0);
+        assertEquals(exif.getYResolution(), 72.0);
         assertEquals(exif.getWidth(), 5312);
         assertEquals(exif.getHeight(), 2988);
         assertEquals(exif.getIso(), "50");
@@ -89,8 +89,8 @@ public class ExifParserIntegrationTest {
         assertEquals(exif.getAperture(), "2.2");
         assertEquals(exif.getFocalLength(), "4.2 mm");
         assertEquals(exif.getColorSpace(), "sRGB");
-        assertEquals(exif.getPixelXDimension(), 72.0);
-        assertEquals(exif.getPixelYDimension(), 72.0);
+        assertEquals(exif.getXResolution(), 72.0);
+        assertEquals(exif.getYResolution(), 72.0);
         assertEquals(exif.getWidth(), 3264);
         assertEquals(exif.getHeight(), 2448);
         assertEquals(exif.getIso(), "32");
