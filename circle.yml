@@ -7,11 +7,10 @@ machine:
 dependencies:
   override:
     - docker info
-    - mvn -D skipTests=true package
 
 test:
   override:
-    - docker ps
+    - mvn -D skipTests=true package
 
 deployment:
   hub:
