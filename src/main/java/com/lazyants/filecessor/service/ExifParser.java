@@ -67,8 +67,8 @@ public class ExifParser {
         parseAndSetInt(metadata.get(StandardTag.IMAGE_WIDTH), result::setWidth);
         parseAndSetLocation(metadata.get(StandardTag.GPS_LATITUDE), result::setLatitude);
         parseAndSetLocation(metadata.get(StandardTag.GPS_LONGITUDE), result::setLongitude);
-        parseAndSetDouble(metadata.get(StandardTag.X_RESOLUTION), result::setPixelXDimension);
-        parseAndSetDouble(metadata.get(StandardTag.Y_RESOLUTION), result::setPixelYDimension);
+        parseAndSetDouble(metadata.get(StandardTag.X_RESOLUTION), result::setXResolution);
+        parseAndSetDouble(metadata.get(StandardTag.Y_RESOLUTION), result::setYResolution);
 
         return result;
     }
